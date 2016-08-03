@@ -1,0 +1,24 @@
+/*accord.css*/
+.accordion {display : none;}
+CSS : 
+@media (max-width : 768px){
+.accordion {
+    display: block;
+    /*margin: 0px -10px;*/
+    height: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+    /*top: -16px;*/
+    /* width: 100%; */
+}
+.accordion span {
+    float: right;
+    font-size: 30px;
+    font-weight: bolder;
+    top: -16px;
+    vertical-align: middle;
+    position: relative;
+	cursor : pointer;
+}
+}
